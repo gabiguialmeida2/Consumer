@@ -4,8 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"rabbitConnection"
-
+	"github.com/gabiguialmeida2/rabbitConnection"
 	"github.com/streadway/amqp"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
